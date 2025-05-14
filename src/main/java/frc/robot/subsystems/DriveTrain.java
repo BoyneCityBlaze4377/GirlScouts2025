@@ -82,7 +82,7 @@ public class DriveTrain extends SubsystemBase {
   private final String cameraName;
   private Alliance m_alliance;
 
-  private AdvancedPose2D desiredPose, initialPose = AutonConstants.initialPoseRedBack;
+  private AdvancedPose2D desiredPose, initialPose = new AdvancedPose2D();
   private Alignment desiredAlignment;
   private ReefStation estimatedStation;
 

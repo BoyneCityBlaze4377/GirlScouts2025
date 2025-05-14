@@ -80,7 +80,7 @@ public class AlgaeAffector extends SubsystemBase {
     algaeCollectorTwo.configure(algaeCollectorTwoConfig, ResetMode.kResetSafeParameters, PersistMode.kPersistParameters);
   }
 
-  /** @return Whether or not the AlgaeAffector has an algae  */
+  /** @return Whether or not the AlgaeAffector has an algae */
   public boolean hasAlgae() {
     return !algaeDetector.get();
   }
